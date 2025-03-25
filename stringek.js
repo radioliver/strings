@@ -41,3 +41,11 @@ console.log(s3.charCodeAt(4));
 
 console.log(s3.startsWith("m"));
 console.log(s3.endsWith("l"));
+
+let b = "Hello világ!";
+console.log(b.startsWith("Hello"));
+console.log(b.endsWith("világ"));
+
+let c = "105";
+console.log(c.padStart(50000, "0"));
+console.log(c.padEnd(5, "0"));
